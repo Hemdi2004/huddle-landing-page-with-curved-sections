@@ -1,0 +1,397 @@
+:root{
+    --pink : hsl(322, 100%, 66%);
+    --light-pink : hsl(321, 100%, 78%);
+    --red : hsl(0, 100%, 63%);
+    --dark-bleu : hsl(192, 100%, 9%) ;
+    --pale-blue : hsl(207, 100%, 98%);
+    --poppins-font: 'Poppins', sans-serif;
+    --open-sans : 'Open Sans', sans-serif;
+    --txt-shadow :2px 2px 4px rgba(157, 154, 154, 0.5);
+}
+
+body{
+    
+}
+*, *::after, *::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+        width: 100%;
+    }
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30%;
+    padding: 7%;
+}
+.logo{
+    width: 140px;
+}
+.try-it-free-btn{
+    background-color: white;
+    border: 1.7px var(--light-pink) solid;
+    color: var(--light-pink);
+    border-radius: 15px;
+    padding: 5px 18px 5px 18px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.try-it-free-btn:hover{
+    cursor: pointer;
+    color:var(--light-pink) ;
+    opacity: 0.5;
+}
+picture{
+    overflow: hidden;
+} 
+img {
+    width: 100%;
+    display: block;
+}
+
+                                               /* building-community-section */
+
+.building-community-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30%;
+    padding: 8%;
+    font-family: var(--open-sans);
+    text-shadow: var(--txt-shadow)
+    
+}
+
+.build-sentence{
+  font-family: var(--poppins-font);
+  font-size: 2rem;
+  color: var(--dark-bleu);
+  margin-bottom: 8%;
+}
+.grow-title, .flowing-title, .users-title {
+    font-family: var(--poppins-font);
+    font-size: 1.2rem;
+    color: var(--dark-bleu);
+    margin-bottom: 8%;
+}
+.build-paragraph, .grow-paragraph, .flowing-paragraph, .users-paragraph{
+    font-family: var(--open-sans);
+    color: var(--dark-bleu);
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 15%;
+    line-height: 1.5;
+}
+
+.building-community-btn {
+    background-color:var(--pink);
+    border: none;
+    color: white;
+    border-radius: 40px;
+    width: 58%;
+    align-self: center;
+    padding: 10px 25px 10px 25px;
+    margin-bottom: 30%;
+    font-weight: 600;
+    box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.15);
+   -webkit-box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.15);
+   -moz-box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.15);
+}
+.building-community-btn:hover, .subscribe-btn:hover{
+   cursor: pointer;
+   background-color:var(--light-pink) ;
+}
+
+                                         /* communities-and-messages-rate-section */
+
+.communities-and-messages-rate-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30%;
+    font-family: var(--open-sans);
+     text-shadow: var(--txt-shadow);
+} 
+.community-div{
+margin-bottom: 50%;
+}    
+.community-div div, .messages-div div{
+    padding-top: 5%;
+}
+.community-div > img, .messages-div > img {
+    width: 16%;
+}
+.number-of-communities, .number-of-messages{  
+    font-size: 4rem;
+    font-weight: 700;
+}
+.div-txt1, .div-txt2{
+    opacity: 0.7;
+    color: gray;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.div-txt2{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 40px;
+}
+
+
+                                            /* communitie's-features-section */
+                                                
+.communitie-features-section {
+    text-shadow: var(--txt-shadow)   
+}                                                                            
+.grow-txt, .flow-txt, .users-txt{
+  padding: 7% 7% 0 7%;
+}
+.growing-div, .users-div{
+    background-color: var(--pale-blue);
+}
+.communitie-features-section, .growing-div, .flowing-div, .users-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}           
+.growing-img, .flowing-img, .users-img{
+   margin-bottom: 20%;
+   width: 60%;
+   align-self: center;
+}        
+
+                                              /* build-ur-community-section */
+
+.build-ur-community-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30%;
+    text-shadow: var(--txt-shadow)   
+}  
+.build-ur-community-section > p {
+       margin-bottom: 10%;
+}      
+                                                    /* bottom-section */
+.bottom-section{
+    color: white;
+    font-family: var(--open-sans);
+    text-shadow: var(--txt-shadow);
+}
+.bottom-container{
+    background-color:var(--dark-bleu) ;
+}
+.newsletter-btn-container{
+    margin-bottom: 15%;
+}
+.newsletter-btn-container, .huddle-txt{
+    padding: 0 7% 7% 7% ;
+}
+.newsletter-title{
+    font-family: var(--open-sans);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+.newsletter-txt, .lorem-txt{
+    font-family: var(--open-sans);
+    font-weight: 400;
+    font-size: 0.85rem;
+    text-align: left;
+    line-height: 1.6;
+    padding: 0 10% 5% 0;
+}
+.newsletter-btn-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100% ;
+  }
+  .email-input{
+    position: relative;
+    right: 15px;
+    margin-bottom: 5%;
+  }
+  .validEmail, .emailError {
+    color: rgb(255, 27, 27);
+    font-size: 0.85rem;
+    position: absolute;
+    bottom: -20px;
+  }
+  .subscribe-btn{
+    background-color:var(--pink);
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+   width: 45%;
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    align-self: self-end;
+  }
+  .footer-logo{
+    width: 60%;
+    margin-bottom: 5%;
+  }
+  .lorem-txt{
+    margin-bottom: 10%;
+
+  }
+  .phone-div, .email-div{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    margin-bottom: 5%;
+  }
+  .icon-img{
+    width: initial;
+  }
+  #phone-number, #company-email, #email{
+    position: relative;
+    left: 5%;
+    font-size: 0.8rem;
+  }
+  .contact-div{
+      margin-bottom: 12%;
+  }
+  .social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+  }
+  .fa-brands{
+    font-size: 24px;
+  }
+  .fa-brands:hover{
+    background-color: rgb(63, 217, 237);
+    cursor: pointer;
+  }
+  @media (min-width : 650px){
+    nav{
+        margin-bottom: 5%;
+        padding: 3%  16% 3% 16%;
+    }
+    .building-community-section{
+        margin-bottom: 5%;
+        padding: 3% 25% 0 25%;
+    }
+    .build-sentence{
+        margin-bottom: 3%;
+      }
+      .build-paragraph{
+        margin-bottom: 7%;
+        padding:0 22% 0 22%;
+    }
+.building-community-btn {
+   width: 40%;
+   margin-bottom: 10%;
+}
+.communities-and-messages-rate-section > div{
+    display: flex;
+    flex-direction: row;
+} 
+.community-div{
+     position: relative;
+     right: 100px;
+}
+.messages-div{
+    position: relative;
+     left: 100px;
+}
+.div-txt2{
+    width: 100%;
+    text-align:inherit;
+}
+.communities-and-messages-rate-section{
+    margin-bottom: 0;
+} 
+.features-container{
+    margin-bottom: 10%;
+}
+.growing-div, .flowing-div, .users-div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+}     
+.growing-img{
+    order: 2 ;
+}
+.growing-img, .flowing-img, .users-img{
+    margin-bottom: 0;
+    width: 30%;
+ }  
+ .grow-txt{
+    padding: 0;
+    flex-basis: 30%;
+    text-align: left;
+ }
+ .flow-txt{
+   padding: 0;
+   flex-basis: 31%;
+   text-align: left;
+  }   
+  .users-txt{
+    order: 1;
+    padding: 0;
+    flex-basis: 30%;
+    text-align: left;
+  }
+  .users-img{
+    order: 2;
+  } 
+.building-community-btn {
+    margin-bottom: 15%;
+    padding: 20px 40px 20px 40px;
+    width: 300px;
+}
+.build-ur-community-section > p {
+    margin-bottom: 2%;
+} 
+.build-ur-community-section{
+    margin-bottom: 0;
+}
+
+ .bottom-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8%;
+ }
+ .huddle-txt{
+    order: 1;
+ }
+.huddle-txt{
+    padding: 0 13.5% 0 13.5% ;
+}
+.newsletter-btn-container{
+    padding: 0 10.5% 0 13.5% ;
+}
+.newsletter-txt{
+    padding: 0 10.5% 10.5% 0;
+}
+.newsletter-div{
+    display: flex;
+    flex-direction: column;
+}
+ .newsletter-btn-container{
+  order: 2;
+  flex-direction: row;
+ }
+ .subscribe-btn{
+    position: relative;
+    bottom: 7%;
+    left: 7%;
+  }
+  }
